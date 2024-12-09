@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CatsWriter - A space for feline-inspired creativity and stories.">
+    <title>CatsWriter</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://placekitten.com/1200/600');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin: 0 0 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 0 0 20px;
+        }
+        .hero a {
+            display: inline-block;
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        .hero a:hover {
+            background-color: #e55a50;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CatsWriter</h1>
+    <p>Welcome to your creative feline world</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#stories">Stories</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Unleash Your Inner Cat Lover</h2>
+    <p>Discover tales, tips, and creative stories inspired by our feline friends.</p>
+    <a href="#stories">Explore Stories</a>
+</section>
+
+<section class="content" id="about">
+    <h3>About CatsWriter</h3>
+    <p>CatsWriter is a space for cat enthusiasts and creative writers. Whether you're here to read heartwarming stories or share your own, you're in the right place!</p>
+</section>
+
+<section class="content" id="stories">
+    <h3>Featured Stories</h3>
+    <p>Check out the latest adventures, tips, and tales from the CatsWriter community.</p>
+</section>
+
+<section class="content" id="contact">
+    <h3>Contact Us</h3>
+    <p>We'd love to hear from you! Drop us a message at <strong>contact@catswriter.com</strong>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 CatsWriter. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
